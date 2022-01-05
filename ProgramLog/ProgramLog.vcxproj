@@ -19,7 +19,7 @@
     <LibraryPath>C:\Users\user.HP450-2\CPP\spdlog\build\Release;$(VcpkgInstalledDir)x64-windows\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LibraryPath>C:\Users\user.HP450-2\CPP\spdlog\build\Release;$(VcpkgInstalledDir)x64-windows\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(USERPROFILE)\CPP\spdlog\build\Release;$(VcpkgInstalledDir)x64-windows\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -28,7 +28,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\user.HP450-2\CPP\spdlog\include;$(VcpkgInstalledDir)x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(USERPROFILE)\CPP\spdlog\include;$(VcpkgInstalledDir)x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <TreatWarningAsError>false</TreatWarningAsError>
     </ClCompile>
     <Link>
